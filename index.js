@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello World Modified!');
+  res.send('Hello World Jenkins Docker Pipeline Testing!');
 });
 
 var server = app.listen(3000, function () {
